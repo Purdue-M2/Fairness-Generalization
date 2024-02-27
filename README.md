@@ -4,7 +4,7 @@
 You can run the following script to configure the necessary environment:
 
 ```
-cd CVPR24_fairness_deepfake_code
+cd Fairness-Generalization
 conda create -n FairnessDeepfake python=3.9.0
 conda activate FairnessDeepfake
 pip install -r requirements.txt

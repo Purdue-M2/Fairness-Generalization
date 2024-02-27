@@ -1,4 +1,9 @@
-# Fairness Deepfake Code
+# Preserving Fairness Generalization in Deepfake Detection
+
+Li Lin, Xinan He, Yan Ju, Xin Wang, Feng Ding, and Shu Hu
+_________________
+
+This repository is the official implementation of our paper "Preserving Fairness Generalization in Deepfake Detection", which has been accepted by **CVPR 2024**. 
 
 ## 1. Installation
 You can run the following script to configure the necessary environment:
@@ -114,4 +119,14 @@ Change `--inter_attribute` and `--single_attribute` for different testing datase
 | ResNet50          | [resnet50.py](training/networks/resnet50.py)       | [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/html/He_Deep_Residual_Learning_CVPR_2016_paper.html)                                                                                                                                                                                                                                                                                              |
 | EfficientNet-B4      | [efficientnetb4.py](./training/networks/efficientnetb4.py) | [Efficientnet: Rethinking model scaling for convolutional neural networks](http://proceedings.mlr.press/v97/tan19a.html)                                                                                                                                                                                                                  |
 
-
+## Citation
+Please kindly consider citing our papers in your publications. 
+```bash
+@article{Li2024preserving,
+    title={Preserving Fairness Generalization in Deepfake Detection},
+    author={Li Lin, Xinan He, Yan Ju, Xin Wang, Feng Ding, Shu Hu},
+    year={2024},
+    journal={arXiv},
+    url={}
+}
+```

@@ -122,7 +122,7 @@ Change `--inter_attribute` and `--single_attribute` for different testing datase
 ## Citation
 Please kindly consider citing our papers in your publications. 
 ```bash
-@InProceedings{Li2024preserving,
+@inproceedings{Li2024preserving,
     title={Preserving Fairness Generalization in Deepfake Detection},
     author={Li Lin, Xinan He, Yan Ju, Xin Wang, Feng Ding, Shu Hu},
     booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},

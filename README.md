@@ -50,10 +50,10 @@ pip install -r requirements.txt
 				/path/to/cropped_images/imgxx.png, 1(fake)/0(real), 1(male)/-1(not male), 1(asian)/-1(not asian), 1(black)/-1(not black), 1(white)/-1(not white), 0(male-asian)/1(male-white)/2(male-black)/3(male-others)/4(female-asian)/5(female-white)/6(female-black)/7(female-others)
 				...
 
-## Load Pretrained Weights
+## 3. Load Pretrained Weights
 Before running the training code, make sure you load the pre-trained weights. We provide pre-trained weights under [`./training/pretrained`](./training/pretrained). You can also download *Xception* model trained on ImageNet (through this [link](http://data.lip6.fr/cadene/pretrainedmodels/xception-b5690688.pth)) or use your own pretrained *Xception*.
 
-## Train
+## 4. Train
 To run the training code, you should first go to the [`./training/`](./training/) folder, then you can train our detector with loss flattening strategy by running [`train.py`](training/train.py), or without loss flattening strategy by running [`train_noSAM.py`](training/train_noSAM.py):
 
 ```
@@ -78,7 +78,7 @@ You can adjust the parameters in [`train.py`](training/train.py) to specify the 
 
 `--model`: detector name: fair_df_detector.
 
-## Test
+## 5. Test
 * For model testing, we provide a python file to test our model by running `python test.py`. 
 
 	`--test_path`: /path/to/test.csv 

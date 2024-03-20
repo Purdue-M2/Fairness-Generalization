@@ -16,7 +16,9 @@ pip install -r requirements.txt
 ```
 
 ## 2. Dataset Preparation
-** The processed and annotated datasets will be released by the end of June 2024.** 
+
+**The processed and annotated datasets will be released by the end of June 2024**.
+
 - Download [FF++](https://github.com/ondyari/FaceForensics), [Celeb-DF](https://github.com/yuezunli/celeb-deepfakeforensics), [DFD](https://ai.googleblog.com/2019/09/contributing-data-to-deepfake-detection.html) and [DFDC](https://ai.facebook.com/datasets/dfdc/) datasets
 - Download annotations for these four datasets according to [paper](https://arxiv.org/pdf/2208.05845.pdf) and their [code](https://github.com/pterhoer/DeepFakeAnnotations), extract the demographics information of all images in each dataset. 
 - Extract, align and crop face using [DLib](https://www.jmlr.org/papers/volume10/king09a/king09a.pdf), and save them to `/path/to/cropped_images/`
